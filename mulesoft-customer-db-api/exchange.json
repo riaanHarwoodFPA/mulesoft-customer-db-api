@@ -1,0 +1,11 @@
+{
+  "main": "mulesoft-customer-db-api.yaml",
+  "name": "mulesoft-customer-db-api",
+  "classifier": "oas",
+  "organizationId": "cf2bb968-1594-4c86-902e-0197015472ba",
+  "descriptorVersion": "1.0.0",
+  "groupId": "cf2bb968-1594-4c86-902e-0197015472ba",
+  "assetId": "mulesoft-customer-db-api",
+  "version": "1.0.0",
+  "tags": []
+}
