@@ -4,6 +4,23 @@ This project is a MuleSoft-based REST API that integrates with PostgreSQL databa
 <br> 
 <br> 
 
+# ⚙️ Tech Stack
+MuleSoft (Anypoint Studio)
+PostgreSQL
+Supabase
+DataWeave
+
+
+# 🚀 Features
+✅ Create a customer
+📥 Retrieve customers
+✏️ Update customer details
+❌ Delete a customer
+
+
+<br>
+<br>
+
 # Diagrams & Screenshots
 New Database Project set up in Supabase
 <img width="1693" height="702" alt="image" src="https://github.com/user-attachments/assets/181b3fc5-c72e-46b5-aac7-83cecc916f14" />
