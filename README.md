@@ -58,7 +58,7 @@ Request Body
 
 # Get Customers
 
-GET /customers
+**GET** /customers
 
 Retrieves all customers from the database.
 
@@ -66,7 +66,7 @@ Retrieves all customers from the database.
 
 # Update Customer
 
-PUT /customers/{id}
+**PUT** /customers/{id}
 
 Updates an existing customer's details.
 
@@ -74,9 +74,15 @@ Updates an existing customer's details.
 
 # Delete Customer
 
-DELETE /customers/{id}
+**DELETE** /customers/{id}
 
 Deletes a customer from the database.
+
+
+# Issue Encountered
+
+* Connecting to SupabaseDB. Currently geeting the following error:
+<img width="1410" height="891" alt="image" src="https://github.com/user-attachments/assets/d64e272c-9c3a-4f5e-b2b6-d88d07f36c5a" />
 
 
 
