@@ -34,6 +34,25 @@ DataWeave handles data transformation between layers
 
 (to be updatted) 
 
+<br>
+
+# 🔌 API Endpoints
+➕ Create Customer
+
+POST /customers
+
+Creates a new customer in the database.
+
+```
+Request Body
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john@email.com"
+}
+```
+
 
 <br>
 <br>
