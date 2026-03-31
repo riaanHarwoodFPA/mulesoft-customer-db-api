@@ -11,6 +11,7 @@ This project is a MuleSoft-based REST API that integrates with PostgreSQL databa
 * Supabase
 * DataWeave
 
+<br>
 
 # 🚀 Features
 
@@ -18,6 +19,20 @@ This project is a MuleSoft-based REST API that integrates with PostgreSQL databa
 * Retrieve customers
 * Update customer details
 * Delete a customer
+
+<br>
+
+# 🏗️ Architecture
+
+This project follows a simplified API-led connectivity approach, where:
+
+MuleSoft acts as the integration layer
+PostgreSQL (Supabase) serves as the data source
+DataWeave handles data transformation between layers
+
+# 📊 Architecture Diagram:
+
+(to be updatted) 
 
 
 <br>
