@@ -1,8 +1,10 @@
 # mulesoft-customer-db-api
+
 **A MuleSoft API that connects to a postgres database (Supabase)**
+
+<br>
 <br>
 This project is a MuleSoft-based REST API that integrates with PostgreSQL database hosted on supabase. The API lets users send requests (like “create a customer”) and the app stores/retrieves that data from a database (supabase). This is a test project which I'm using to experiment with mules integration tools and practice connecting different APIs together. 
-
 <br> 
 <br> 
 
@@ -18,6 +20,24 @@ User (Postman / App) - User sends a request (Add,Delete,Update a User)
         ↓
 User gets response
 ```
+
+<br>
+<br>
+
+**Example**
+
+```
+POST /customers
+{
+  "firstName": "Riaan",
+  "lastName": "Harwood",
+  "email": "riaan@email.com"
+}
+```
+
+<br>
+<br> 
+
 # ⚙️ Tech Stack
 
 * MuleSoft (Anypoint Studio)
