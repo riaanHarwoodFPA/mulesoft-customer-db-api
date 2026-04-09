@@ -28,6 +28,8 @@ User gets response
 HTTP Listener → Transform Message → DB Insert
 ```
 
+<img width="386" height="306" alt="image" src="https://github.com/user-attachments/assets/48ddeac7-999b-45e6-80ec-9e04826e45fd" />
+
 
 <br>
 <br>
