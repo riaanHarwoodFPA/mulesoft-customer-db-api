@@ -23,7 +23,7 @@ User gets response
 <br>
 <br>
 
-**Mule Flow**
+**Basic Mule Flow**
 ```
 HTTP Listener → Transform Message → DB Insert
 ```
