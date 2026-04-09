@@ -133,18 +133,21 @@ Updates an existing customer's details.
 
 Deletes a customer from the database.
 
-
-# Issue Encountered
-
-* Connecting to SupabaseDB. Currently geeting the following error:
-<img width="1410" height="891" alt="image" src="https://github.com/user-attachments/assets/d64e272c-9c3a-4f5e-b2b6-d88d07f36c5a" />
-
+<br>
+<br>
 
 # API Specification (API Designer) 
 <img width="1917" height="826" alt="image" src="https://github.com/user-attachments/assets/aa02ead8-53dc-46fd-9acc-6a07e5b6b998" />
 <img width="1917" height="825" alt="image" src="https://github.com/user-attachments/assets/f44f2438-78e5-40b1-92eb-d2d1b35b754a" />
 <img width="1913" height="822" alt="image" src="https://github.com/user-attachments/assets/cca5d083-46b8-4bcb-ba55-9978c5d5c9fe" />
 
+<br>
+<br>
+
+# Issue Encountered
+
+* Connecting to SupabaseDB. Currently geeting the following error:
+<img width="1410" height="891" alt="image" src="https://github.com/user-attachments/assets/d64e272c-9c3a-4f5e-b2b6-d88d07f36c5a" />
 
 <br>
 <br>
