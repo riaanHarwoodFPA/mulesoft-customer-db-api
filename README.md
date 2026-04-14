@@ -101,7 +101,7 @@ POST /customers
 - PostgreSQL
 - Supabase
 - DataWeave
-- GitHUb
+- GitHub
 - Postman
 
 ---
