@@ -73,10 +73,9 @@ Applies partial updates to an existing customer.
 POST /customers
 ```
 {
-"firstName": "Riaan",
-"lastName": "Harwood",
-"email": "riaan@email.com
-"
+      "firstName": "Riaan",
+      "lastName": "Harwood",
+      "email": "riaan@email.com"
 }
 ```
 
@@ -122,21 +121,12 @@ _To be updated_
 
 ---
 
-## 🔌 API Endpoints
+## 🔌 Summary of API Endpoints
 
 ### ➕ Create Customer
 **POST /customers**
 
 Creates a new customer.
-
-```
-{
-"firstName": "John",
-"lastName": "Doe",
-"email": "john@email.com
-"
-}
-```
 
 ---
 
