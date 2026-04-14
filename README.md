@@ -14,7 +14,7 @@ This is a test project used to experiment with MuleSoft integration tools and pr
 ## 🔄 Workflow
 
 ```
-User (Postman / App) → Sends Request (Add, Delete, Update)
+User (Postman / App) → Sends Request (Add, Preview, Delete, Update)
       ↓
 MuleSoft API (process request)
       ↓
@@ -22,7 +22,7 @@ PostgreSQL Database (Supabase)
       ↓
 MuleSoft API (response)
       ↓
-User receives response
+User receives response (Postman)
 ```
 
 ---
