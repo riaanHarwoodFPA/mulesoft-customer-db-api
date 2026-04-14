@@ -14,13 +14,13 @@ This is a test project used to experiment with MuleSoft integration tools and pr
 
 ```
 User (Postman / App) → Sends Request (Add, Delete, Update)
-↓
+      ↓
 MuleSoft API (process request)
-↓
+      ↓
 PostgreSQL Database (Supabase)
-↓
+      ↓
 MuleSoft API (response)
-↓
+      ↓
 User receives response
 ```
 
@@ -71,14 +71,14 @@ Applies partial updates to an existing customer.
 
 
 POST /customers
-
+```
 {
 "firstName": "Riaan",
 "lastName": "Harwood",
 "email": "riaan@email.com
 "
 }
-
+```
 
 ---
 
@@ -129,14 +129,14 @@ _To be updated_
 
 Creates a new customer.
 
-
+```
 {
 "firstName": "John",
 "lastName": "Doe",
 "email": "john@email.com
 "
 }
-
+```
 
 ---
 
