@@ -14,7 +14,7 @@ This is a test project used to experiment with MuleSoft integration tools and pr
 ## 🔄 Workflow
 
 ```
-User (Postman / App) → Sends Request (Add, Preview, Delete, Update)
+User (Postman / App) → Sends Request (Add, Retrieve, Delete, Update)
       ↓
 MuleSoft API (process request)
       ↓
@@ -97,10 +97,12 @@ POST /customers
 
 ## ⚙️ Tech Stack
 
-- MuleSoft (Anypoint Studio)
+- MuleSoft (Anypoint Studio) || Visual Studio 
 - PostgreSQL
 - Supabase
 - DataWeave
+- GitHUb
+- Postman
 
 ---
 
