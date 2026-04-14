@@ -66,6 +66,12 @@ Removes a customer from the database.
 
 Applies partial updates to an existing customer.
 
+<img width="756" height="307" alt="image" src="https://github.com/user-attachments/assets/d8ad4a03-19bb-4547-b846-21dbbb956913" />
+
+
+<img width="1380" height="711" alt="image" src="https://github.com/user-attachments/assets/7173dfef-eb22-4f07-a8ba-be80464e179a" />
+
+
 ---
 
 ## 🧪 Example Request
