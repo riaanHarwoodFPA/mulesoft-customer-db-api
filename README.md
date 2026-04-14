@@ -32,6 +32,9 @@ HTTP Listener → Transform Message → DB Insert
 
 <img width="386" height="306" alt="image" src="https://github.com/user-attachments/assets/48ddeac7-999b-45e6-80ec-9e04826e45fd" />
 
+<img width="1381" height="815" alt="image" src="https://github.com/user-attachments/assets/e3bc1e3c-ba23-4e19-9845-15cfbaf12d20" />
+
+
 **GET API** 
 
 <img width="397" height="287" alt="image" src="https://github.com/user-attachments/assets/4584cc5a-1a04-4028-a8ae-f822eaef3dc6" />
