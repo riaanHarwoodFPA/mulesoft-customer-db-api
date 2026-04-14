@@ -26,6 +26,7 @@ User gets response
 **Basic Mule Flow**
 ```
 HTTP Listener → Transform Message → DB Insert
+```
 
 
 <br>
@@ -43,6 +44,10 @@ This API created a new customer and adds them to the database.
 <img width="1381" height="815" alt="image" src="https://github.com/user-attachments/assets/e3bc1e3c-ba23-4e19-9845-15cfbaf12d20" />
 
 
+<br>
+<br>
+
+
 **GET API** 
 
 This API retrieves a JSON object of all the customer store in the database. 
@@ -51,8 +56,10 @@ This API retrieves a JSON object of all the customer store in the database.
 
 <img width="1376" height="877" alt="image" src="https://github.com/user-attachments/assets/3886395b-838d-4d6e-9af8-7c6c8ba632b9" />
 
+
 <br>
 <br>
+
 
 
 **DELETE API** 
@@ -64,16 +71,22 @@ This API removes a customer from the database.
 <img width="1382" height="738" alt="image" src="https://github.com/user-attachments/assets/908a088f-c068-4424-bdd6-e3989ca2267f" />
 
 
+
 <br>
 <br>
+
 
 **PATCH API** 
 
 This API is used to apply partial modifications to an existing customer from the database. 
 
 
+
+
 <br>
 <br>
+
+
 
 **Example**
 
@@ -85,6 +98,11 @@ POST /customers
   "email": "riaan@email.com"
 }
 ```
+
+<br>
+<br>
+
+
 
 # Instructions
 Open **customer-db-api** directly in VS code to see workflow. 
