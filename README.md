@@ -82,9 +82,16 @@ POST /customers
 
 ---
 
+<br>
+
 ## 🛠️ Instructions
 
-Open **customer-db-api** in VS Code to view and run the workflow.
+Open **customer-db-api** in VS Code OR Anypoint Studio to view and run the workflow.
+
+Test Each API using **POSTMAN** (PORT: 8081) 
+
+
+<br>
 
 ---
 
