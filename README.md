@@ -1,8 +1,7 @@
 # mulesoft-customer-db-api
 
 
-
-**A MuleSoft API that connects to a PostgreSQL database (Supabase)**
+**A Mule project that connect different API's to a PostgreSQL database (Supabase)**
 
 This project is a MuleSoft-based REST API that integrates with a PostgreSQL database hosted on Supabase. The API allows users to send requests (e.g., “create a customer”) and store/retrieve data from the database.
 
