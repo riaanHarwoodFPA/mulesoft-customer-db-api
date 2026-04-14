@@ -30,12 +30,16 @@ HTTP Listener → Transform Message → DB Insert
 
 **Post API** 
 
+This API created a new customer and adds them to the database. 
+
 <img width="386" height="306" alt="image" src="https://github.com/user-attachments/assets/48ddeac7-999b-45e6-80ec-9e04826e45fd" />
 
 <img width="1381" height="815" alt="image" src="https://github.com/user-attachments/assets/e3bc1e3c-ba23-4e19-9845-15cfbaf12d20" />
 
 
 **GET API** 
+
+This API retrieves a JSON object of all the customer store in the database. 
 
 <img width="397" height="287" alt="image" src="https://github.com/user-attachments/assets/4584cc5a-1a04-4028-a8ae-f822eaef3dc6" />
 
@@ -47,6 +51,8 @@ HTTP Listener → Transform Message → DB Insert
 
 **DELETE API** 
 
+This API removes a customer from the database. 
+
 <img width="487" height="281" alt="image" src="https://github.com/user-attachments/assets/b878a904-aad3-4e39-9d7b-7927193d20db" />
 
 <img width="1382" height="738" alt="image" src="https://github.com/user-attachments/assets/908a088f-c068-4424-bdd6-e3989ca2267f" />
@@ -56,6 +62,8 @@ HTTP Listener → Transform Message → DB Insert
 <br>
 
 **PATCH API** 
+
+This API is used to apply partial modifications to an existing customer from the database. 
 
 
 <br>
