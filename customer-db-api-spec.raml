@@ -1,0 +1,117 @@
+#%RAML 1.0
+title: customer-db-api
+
+types:
+  Customer:
+    type: object
+    properties:
+      firstName: string
+      lastName: string
+      email: string
+
+  CustomerInput:
+    type: object
+    properties:
+      firstName: string
+      lastName: string
+      email: string
+
+  CustomerPatch:
+    type: object
+    properties:
+      firstName?: string
+      lastName?: string
+      email?: string
+
+/customers:
+  # ── GET ALL ──────────────────────────────────────────────────────────────
+  get:
+    description: Retrieve all customers
+    responses:
+      200:
+        body:
+          application/json:
+            type: Customer[]
+            example:
+              - firstName: "John"
+                lastName: "Doe"
+                email: "john.doe@example.com"
+
+  # ── POST ─────────────────────────────────────────────────────────────────
+  post:
+    description: Create a new customer
+    body:
+      application/json:
+        type: CustomerInput
+        example:
+          firstName: "John"
+          lastName: "Doe"
+          email: "john.doe@example.com"
+    responses:
+      201:
+        body:
+          application/json:
+            type: Customer
+            example:
+              firstName: "John"
+              lastName: "Doe"
+              email: "john.doe@example.com"
+
+  /{customerId}:
+    uriParameters:
+      customerId:
+        type: string
+        description: The unique identifier of the customer
+
+    # ── GET BY ID ───────────────────────────────────────────────────────────
+    get:
+      description: Retrieve a specific customer by ID
+      responses:
+        200:
+          body:
+            application/json:
+              type: Customer
+              example:
+                firstName: "John"
+                lastName: "Doe"
+                email: "john.doe@example.com"
+        404:
+          body:
+            application/json:
+              example:
+                message: "Customer not found"
+
+    # ── PATCH ───────────────────────────────────────────────────────────────
+    patch:
+      description: Partially update an existing customer
+      body:
+        application/json:
+          type: CustomerPatch
+          example:
+            email: "new.email@example.com"
+      responses:
+        200:
+          body:
+            application/json:
+              type: Customer
+              example:
+                firstName: "John"
+                lastName: "Doe"
+                email: "new.email@example.com"
+        404:
+          body:
+            application/json:
+              example:
+                message: "Customer not found"
+
+    # ── DELETE ──────────────────────────────────────────────────────────────
+    delete:
+      description: Delete a customer by ID
+      responses:
+        204:
+          description: Customer deleted successfully
+        404:
+          body:
+            application/json:
+              example:
+                message: "Customer not found"
