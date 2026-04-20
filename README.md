@@ -75,6 +75,18 @@ Applies partial updates to an existing customer.
 
 <img width="1437" height="513" alt="Screenshot 2026-04-21 at 1 05 13 AM" src="https://github.com/user-attachments/assets/0d7597d4-2176-4767-83f0-87adced6a1ce" />
 
+<br>
+
+**Updated Details**
+
+<br>
+
+<img width="1052" height="727" alt="Screenshot 2026-04-21 at 1 09 48 AM" src="https://github.com/user-attachments/assets/53bbf833-8c45-4dd6-b0ae-b9c13b704484" />
+
+<img width="1435" height="617" alt="Screenshot 2026-04-21 at 1 10 05 AM" src="https://github.com/user-attachments/assets/4d6f9942-d704-4404-98af-0d60b4e95b3b" />
+
+
+<br>
 
 ---
 
