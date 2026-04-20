@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<types:mule xmlns:types="http://www.mulesoft.org/schema/mule/types">
+  <types:catalog>
+    <types:type name="create-customer-example" format="json">
+      <types:shape format="weave" example="customer-request.json"><![CDATA[%dw 2.0
+
+type create_customer_example = {|
+  firstName: String, 
+  lastName: String, 
+  email: String
+|} {"example": "{\\\"firstName\\\":\\\"John\\\",\\\"lastName\\\":\\\"Doe\\\",\\\"email\\\":\\\"john.doe@example.com\\\"}"}
+
+]]></types:shape>
+    </types:type>
+    <types:type name="customer-example" format="json">
+      <types:shape format="weave" example="customer-example.json"><![CDATA[%dw 2.0
+
+type customer_example = {|
+  id: String, 
+  firstName: String, 
+  lastName: String, 
+  email: String
+|} {"example": "{\\\"id\\\":\\\"1\\\",\\\"firstName\\\":\\\"John\\\",\\\"lastName\\\":\\\"Doe\\\",\\\"email\\\":\\\"john.doe@example.com\\\"}"}
+
+]]></types:shape>
+    </types:type>
+  </types:catalog>
+  <types:enrichment select="#454ad342-ca5d-4cc0-9538-67a23d4694a2">
+    <types:processor-declaration>
+      <types:input-event>
+        <types:message>
+          <types:payload type="create-customer-example"/>
+        </types:message>
+      </types:input-event>
+    </types:processor-declaration>
+  </types:enrichment>
+  <types:enrichment select="#bc2dfe77-964b-454b-a912-84bc40ec9d97">
+    <types:processor-declaration>
+      <types:input-event>
+        <types:message>
+          <types:payload type="create-customer-example"/>
+        </types:message>
+      </types:input-event>
+      <types:output-event>
+        <types:message>
+          <types:payload type="create-customer-example"/>
+        </types:message>
+      </types:output-event>
+    </types:processor-declaration>
+  </types:enrichment>
+</types:mule>
