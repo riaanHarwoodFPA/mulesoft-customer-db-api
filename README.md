@@ -55,6 +55,17 @@ Retrieves all customers from the database as JSON.
 <img width="397" height="287" src="https://github.com/user-attachments/assets/4584cc5a-1a04-4028-a8ae-f822eaef3dc6" />
 <img width="1376" height="877" src="https://github.com/user-attachments/assets/3886395b-838d-4d6e-9af8-7c6c8ba632b9" />
 
+<br>
+
+**Error Handlers**
+
+**Handler 1** — Database errors
+**Handler 2** — Unexpected errors
+
+<img width="359" height="313" alt="Screenshot 2026-04-21 at 1 34 50 AM" src="https://github.com/user-attachments/assets/c408e38c-0174-49d6-a437-7395fbf611f2" />
+
+<br>
+
 ---
 
 ## ❌ DELETE API
