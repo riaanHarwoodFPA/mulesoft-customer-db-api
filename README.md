@@ -45,6 +45,13 @@ Creates a new customer and adds them to the database.
 
 <img width="1438" height="517" alt="Screenshot 2026-04-21 at 12 22 31 AM" src="https://github.com/user-attachments/assets/b050f46c-415b-4a9b-9e60-d252ea333336" />
 
+<br>
+<br>
+
+**Error Handlers**
+
+
+<br>
 
 ---
 
@@ -77,6 +84,16 @@ Removes a customer from the database.
 <img width="487" height="281" src="https://github.com/user-attachments/assets/b878a904-aad3-4e39-9d7b-7927193d20db" />
 <img width="1382" height="738" src="https://github.com/user-attachments/assets/908a088f-c068-4424-bdd6-e3989ca2267f" />
 
+
+<br>
+<br>
+
+**Error Handlers**
+
+
+<br>
+
+
 ---
 
 ## ✏️ PATCH API
@@ -100,6 +117,13 @@ Applies partial updates to an existing customer.
 
 
 <br>
+<br>
+
+**Error Handlers**
+
+
+<br>
+
 
 ---
 
