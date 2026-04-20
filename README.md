@@ -39,7 +39,11 @@ HTTP Listener → Transform Message → DB Insert
 
 Creates a new customer and adds them to the database.
 
-<img width="386" height="306" src="https://github.com/user-attachments/assets/48ddeac7-999b-45e6-80ec-9e04826e45fd" />
+<img width="533" height="273" alt="Screenshot 2026-04-21 at 12 17 56 AM" src="https://github.com/user-attachments/assets/1a286230-7fc5-4b76-bd03-9c5fff9dc092" />
+
+<img width="1007" height="676" alt="Screenshot 2026-04-21 at 12 18 31 AM" src="https://github.com/user-attachments/assets/2caa5e7f-fc88-43d6-a9e8-5c089295050f" />
+
+
 <img width="1381" height="815" src="https://github.com/user-attachments/assets/e3bc1e3c-ba23-4e19-9845-15cfbaf12d20" />
 
 ---
