@@ -45,6 +45,13 @@ Creates a new customer and adds them to the database.
 
 <img width="1438" height="517" alt="Screenshot 2026-04-21 at 12 22 31 AM" src="https://github.com/user-attachments/assets/b050f46c-415b-4a9b-9e60-d252ea333336" />
 
+<br>
+<br>
+
+**Error Handlers**
+
+
+<br>
 
 ---
 
@@ -55,6 +62,19 @@ Retrieves all customers from the database as JSON.
 <img width="397" height="287" src="https://github.com/user-attachments/assets/4584cc5a-1a04-4028-a8ae-f822eaef3dc6" />
 <img width="1376" height="877" src="https://github.com/user-attachments/assets/3886395b-838d-4d6e-9af8-7c6c8ba632b9" />
 
+<br>
+<br>
+
+**Error Handlers**
+
+**Handler 1** — Database errors
+
+**Handler 2** — Unexpected errors
+
+<img width="359" height="313" alt="Screenshot 2026-04-21 at 1 34 50 AM" src="https://github.com/user-attachments/assets/c408e38c-0174-49d6-a437-7395fbf611f2" />
+
+<br>
+
 ---
 
 ## ❌ DELETE API
@@ -63,6 +83,16 @@ Removes a customer from the database.
 
 <img width="487" height="281" src="https://github.com/user-attachments/assets/b878a904-aad3-4e39-9d7b-7927193d20db" />
 <img width="1382" height="738" src="https://github.com/user-attachments/assets/908a088f-c068-4424-bdd6-e3989ca2267f" />
+
+
+<br>
+<br>
+
+**Error Handlers**
+
+
+<br>
+
 
 ---
 
@@ -73,7 +103,26 @@ Applies partial updates to an existing customer.
 <img width="756" height="307" alt="image" src="https://github.com/user-attachments/assets/d8ad4a03-19bb-4547-b846-21dbbb956913" />
 
 
-<img width="1380" height="711" alt="image" src="https://github.com/user-attachments/assets/7173dfef-eb22-4f07-a8ba-be80464e179a" />
+<img width="1437" height="513" alt="Screenshot 2026-04-21 at 1 05 13 AM" src="https://github.com/user-attachments/assets/0d7597d4-2176-4767-83f0-87adced6a1ce" />
+
+<br>
+
+**Updated Details**
+
+<br>
+
+<img width="1052" height="727" alt="Screenshot 2026-04-21 at 1 09 48 AM" src="https://github.com/user-attachments/assets/53bbf833-8c45-4dd6-b0ae-b9c13b704484" />
+
+<img width="1435" height="617" alt="Screenshot 2026-04-21 at 1 10 05 AM" src="https://github.com/user-attachments/assets/4d6f9942-d704-4404-98af-0d60b4e95b3b" />
+
+
+<br>
+<br>
+
+**Error Handlers**
+
+
+<br>
 
 
 ---
