@@ -26,6 +26,57 @@ output application/json
 payload]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<error-handler >
+			<on-error-propagate enableNotifications="true" logException="true" doc:name="On Error Propagate" doc:id="f5aa6a3b-77b3-4805-8fd9-25ab63b0efec" type="DB:CONNECTIVITY, DB:QUERY_EXECUTION">
+				<ee:transform doc:name="Transform Message" doc:id="d7114320-e57f-4611-855d-c3109ca90265" >
+					<ee:message >
+						<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+{
+    error: "Database error",
+    message: error.description
+}]]></ee:set-payload>
+					</ee:message>
+				</ee:transform>
+				<ee:transform doc:name="Transform Message" doc:id="5d88b6d5-d2ed-4b7b-bac0-5d086dc08a90" >
+					<ee:message >
+						<ee:set-payload ><![CDATA[%dw 2.0
+output application/java
+---
+{
+    statusCode: 500
+}
+]]></ee:set-payload>
+					</ee:message>
+				</ee:transform>
+			</on-error-propagate>
+			<on-error-propagate enableNotifications="true" logException="true" doc:name="On Error Propagate" doc:id="fb47ce62-371b-4e18-ba38-56805cd1f7b5" type="ANY">
+				<ee:transform doc:name="Transform Message" doc:id="fdb52da9-6ec8-4353-8346-e7aeb0240ad7" >
+					<ee:message >
+						<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+{
+    error: "Internal server error",
+    message: "Something went wrong while processing your request"
+}
+]]></ee:set-payload>
+					</ee:message>
+				</ee:transform>
+				<ee:transform doc:name="Transform Message" doc:id="49a5c517-1d0b-4777-804b-fef46531f4a0" >
+					<ee:message >
+						<ee:set-payload ><![CDATA[%dw 2.0
+output application/java
+---
+{
+    statusCode: 500
+}
+]]></ee:set-payload>
+					</ee:message>
+				</ee:transform>
+			</on-error-propagate>
+		</error-handler>
 	</flow>
 	<flow name="add-customer" doc:id="e8232896-292d-4058-bcbb-198a77337852" >
 		<http:listener doc:name="addCustomer" doc:id="703183e1-14a7-4109-a05b-262fea50a15a" config-ref="HTTP_Listener_config" path="/customers" allowedMethods="POST">
