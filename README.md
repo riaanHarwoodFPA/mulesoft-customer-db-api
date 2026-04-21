@@ -260,17 +260,16 @@ Deletes a customer.
 <br>
 <br>
 
-### Deployment - CloudHUB
+## Deployment - CloudHUB
 
 <img width="997" height="803" alt="Screenshot 2026-04-22 at 11 39 05 AM" src="https://github.com/user-attachments/assets/36e1ee34-3519-4b7c-b033-6aef8ccb1368" />
 
 <img width="1422" height="723" alt="Screenshot 2026-04-22 at 11 40 19 AM" src="https://github.com/user-attachments/assets/4cf43444-7362-46f8-9fa2-50adf95a77a6" />
 
-<br>
-<br>
-
 
 ---
+<br>
+<br>
 
 ## 🧩 API Specification (API Designer)
 
@@ -285,7 +284,7 @@ Deletes a customer.
 
 - Connecting to Supabase DB  
 - Currently getting the following error:
-
+- Deployment - "No listener for endpoint: /" 
 <img width="1410" height="891" src="https://github.com/user-attachments/assets/d64e272c-9c3a-4f5e-b2b6-d88d07f36c5a" />
 
 ---
