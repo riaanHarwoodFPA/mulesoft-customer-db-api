@@ -300,3 +300,25 @@ New database project setup in Supabase:
 <img width="1693" height="702" src="https://github.com/user-attachments/assets/181b3fc5-c72e-46b5-aac7-83cecc916f14" />
 <img width="1477" height="707" src="https://github.com/user-attachments/assets/03ee5c5c-4bc8-4c95-9b27-8acc19a9f2b0" />
 
+---
+<br>
+
+## 📈 Future Improvements
+
+<br>
+
+- Add authentication & security (OAuth/JWT)
+- Improve error handling consistency across all endpoints
+- Implement logging and monitoring
+- Expand API with additional business logic
+- Add frontend client for real-world usage
+
+
+---
+<br>
+
+## 📄 Summary
+
+<br>
+
+This project showcases the fundamentals of building an integration-focused REST API using MuleSoft. It highlights core concepts such as API design, data transformation, error handling, and cloud database connectivity.
