@@ -257,6 +257,15 @@ Updates an existing customer.
 
 Deletes a customer.
 
+## Deployment - CloudHUB
+
+<img width="997" height="803" alt="Screenshot 2026-04-22 at 11 39 05 AM" src="https://github.com/user-attachments/assets/36e1ee34-3519-4b7c-b033-6aef8ccb1368" />
+
+<img width="1422" height="723" alt="Screenshot 2026-04-22 at 11 40 19 AM" src="https://github.com/user-attachments/assets/4cf43444-7362-46f8-9fa2-50adf95a77a6" />
+
+
+
+
 ---
 
 ## 🧩 API Specification (API Designer)
