@@ -167,7 +167,7 @@ output application/json
 			</on-error-continue>
 		</error-handler>
 	</flow>
-	<flow name="update-customer-details" doc:id="8a264202-6f37-4368-b882-ad8fb61912b0" >
+	<flow name="update-customer" doc:id="8a264202-6f37-4368-b882-ad8fb61912b0" >
 		<http:listener doc:name="updateCustomer" doc:id="17fd4104-a88c-4753-9c5e-62e68e9bce05" config-ref="HTTP_Listener_config" path="/customers/{id}" allowedMethods="PATCH"/>
 		<set-variable value="#[attributes.uriParams.id as Number]" doc:name="getCustomerId" doc:id="a2a557a8-00bf-4843-9721-b1022680e64c" variableName="customerId"/>
 		<ee:transform doc:name="Transform Message" doc:id="61b71e5b-61c1-48b1-9e8a-693c74ee1c9b" >
