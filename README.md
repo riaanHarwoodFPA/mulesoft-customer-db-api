@@ -288,8 +288,14 @@ Deletes a customer.
 
 - Connecting to Supabase DB  
 - Currently getting the following error:
-- Deployment - "No listener for endpoint: /" 
+- Deployment - "**No listener for endpoint: /**"
+  
 <img width="1410" height="891" src="https://github.com/user-attachments/assets/d64e272c-9c3a-4f5e-b2b6-d88d07f36c5a" />
+
+<img width="1440" height="809" alt="Screenshot 2026-04-22 at 11 52 46 AM" src="https://github.com/user-attachments/assets/9db1cfd0-962b-4776-82f0-5550bb460934" />
+
+
+<br>
 
 ---
 
