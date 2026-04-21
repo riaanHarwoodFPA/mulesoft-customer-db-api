@@ -71,7 +71,11 @@ Retrieves all customers from the database as JSON.
 
 **Handler 2** — Unexpected errors
 
-<img width="359" height="313" alt="Screenshot 2026-04-21 at 1 34 50 AM" src="https://github.com/user-attachments/assets/c408e38c-0174-49d6-a437-7395fbf611f2" />
+
+<img width="347" height="315" alt="Screenshot 2026-04-21 at 6 50 39 PM" src="https://github.com/user-attachments/assets/04964572-09eb-4213-8304-fdebd1c369d7" />
+
+<img width="1014" height="484" alt="Screenshot 2026-04-21 at 6 51 14 PM" src="https://github.com/user-attachments/assets/f20365b1-4c90-4e70-9fcc-aa9260b239c1" />
+
 
 <br>
 
