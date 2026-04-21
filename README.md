@@ -297,8 +297,12 @@ Deletes a customer.
 
 New database project setup in Supabase:
 
+### 🔹 Supabase Database Setup
+
 <img width="1693" height="702" src="https://github.com/user-attachments/assets/181b3fc5-c72e-46b5-aac7-83cecc916f14" />
 <img width="1477" height="707" src="https://github.com/user-attachments/assets/03ee5c5c-4bc8-4c95-9b27-8acc19a9f2b0" />
+
+<br>
 
 ---
 <br>
