@@ -51,6 +51,13 @@ Creates a new customer and adds them to the database.
 **Error Handlers**
 
 
+**Handler 1** - Validation Error (missing inputs)
+
+**Handler 2** - DB connection Error
+
+![Uploading Screenshot 2026-04-21 at 8.01.02 PM.png…]()
+
+
 <br>
 
 ---
