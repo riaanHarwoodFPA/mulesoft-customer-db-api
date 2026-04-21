@@ -142,6 +142,18 @@ Applies partial updates to an existing customer.
 
 **Error Handlers**
 
+**Handler 1** - Unable to find user based off id {/id}
+
+**Handler 2** - DB connection Error 
+
+**Handler 3** - Connectiont/Network error 
+
+<img width="644" height="469" alt="Screenshot 2026-04-21 at 10 05 35 PM" src="https://github.com/user-attachments/assets/d38c33d6-ff33-436e-bc88-95e60c9289fb" />
+
+
+<img width="1013" height="674" alt="Screenshot 2026-04-21 at 10 06 04 PM" src="https://github.com/user-attachments/assets/13c3239b-107b-4a6d-90b9-c486a6764c68" />
+
+
 
 <br>
 
