@@ -225,7 +225,9 @@ This project follows a simplified API-led connectivity approach:
 
 ## 📊 Architecture Diagram
 
-_To be updated_
+<img width="757" height="1667" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/d4faaada-4683-41e0-a083-a79b0598edfa" />
+
+<br>
 
 ---
 
@@ -279,6 +281,8 @@ Deletes a customer.
 <img width="1913" height="822" src="https://github.com/user-attachments/assets/cca5d083-46b8-4bcb-ba55-9978c5d5c9fe" />
 
 ---
+<br>
+<br>
 
 ## ⚠️ Issue Encountered
 
