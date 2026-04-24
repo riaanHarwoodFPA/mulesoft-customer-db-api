@@ -325,7 +325,7 @@ New database project setup in Supabase:
 
 <br>
 
-- **Modern Frontend/UI **
+- **Modern Frontend/UI**
 - Add authentication & security (OAuth/JWT)
 - Improve error handling consistency across all endpoints
 - Implement logging and monitoring
