@@ -210,18 +210,19 @@ output application/json
 			</ee:message>
 		</ee:transform>
 		<error-handler >
-			<on-error-continue enableNotifications="true" logException="true" doc:name="BAD_REQUEST" doc:id="a06e4457-5b94-42c5-841b-1661abafeb75" type="ANY">
+			<on-error-continue enableNotifications="true" logException="true" doc:name="BAD_REQUEST" doc:id="a06e4457-5b94-42c5-841b-1661abafeb75" type="DB:CONNECTIVITY, DB:QUERY_EXECUTION">
 				<ee:transform doc:name="Transform Message" doc:id="820d7e16-5458-49d0-9e73-88b2550ef2e7" >
 					<ee:message >
 						<ee:set-payload ><![CDATA[%dw 2.0
 output application/json
 ---
 {
-  error: "Customer not found"
+  "error": "Database unavailable",
+  "message": "Please try again later"
 }]]></ee:set-payload>
 					</ee:message>
 				</ee:transform>
-				<set-variable value="400" doc:name="Set Variable" doc:id="84321cf7-155d-4151-8a9e-bc7a4a188e3e" variableName="statusCode"/>
+				<set-variable value="500" doc:name="Set Variable" doc:id="84321cf7-155d-4151-8a9e-bc7a4a188e3e" variableName="statusCode"/>
 			</on-error-continue>
 			<on-error-continue enableNotifications="true" logException="true" doc:name="DB errors" doc:id="1a67e0ee-5ebc-4bd5-b749-4c4207ad7439" type="ANY">
 				<ee:transform doc:name="Transform Message" doc:id="5703a266-0ab2-430d-8d8d-4a6542fc24ea" >
@@ -230,24 +231,12 @@ output application/json
 output application/json
 ---
 {
-  error: "Customer not found"
+  "error": "Internal server error",
+  "message": error.description
 }]]></ee:set-payload>
 					</ee:message>
 				</ee:transform>
 				<set-variable value="500" doc:name="Set Variable" doc:id="2759fc78-4810-4817-ae99-087babf88a2a" variableName="statusCode"/>
-			</on-error-continue>
-			<on-error-continue enableNotifications="true" logException="true" doc:name="On Error Continue" doc:id="fec7335c-2779-403c-a54f-e66892da66f8" type="ANY" >
-				<ee:transform doc:name="Transform Message" doc:id="6a638467-c0fa-40cf-90be-09c1b8acd35c" >
-					<ee:message >
-						<ee:set-payload ><![CDATA[%dw 2.0
-output application/json
----
-{
-  error: "Customer not found"
-}]]></ee:set-payload>
-					</ee:message>
-				</ee:transform>
-				<set-variable value="404" doc:name="Set Variable" doc:id="c1230ec7-65ae-4e8a-ad00-5bcbae0542f0" variableName="statusCode" />
 			</on-error-continue>
 		</error-handler>
 	</flow>
