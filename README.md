@@ -10,15 +10,8 @@ This project is a MuleSoft-based REST API that integrates with a PostgreSQL data
 This is a test project used to experiment with MuleSoft integration tools and practice connecting different APIs.
 
 <br>
-<br>
-
-**Public Endpoint:**:  
-Link: https://anypoint.mulesoft.com/cloudhub/#/console/applications/runtimeFabric/75d7f833-2a47-4587-ad4c-70a726dabcb6/settings
-
-<br>
 
 ---
-
 
 
 
@@ -36,6 +29,8 @@ MuleSoft API (response)
 User receives response (Postman)
 ```
 
+<br>
+
 ---
 
 
@@ -46,6 +41,7 @@ User receives response (Postman)
 
 HTTP Listener → Transform Message → DB Insert
 
+<br>
 
 ---
 
@@ -77,6 +73,8 @@ Creates a new customer and adds them to the database.
 
 
 <br>
+<br>
+
 
 ---
 
@@ -102,6 +100,19 @@ Retrieves all customers from the database as JSON.
 <img width="1014" height="484" alt="Screenshot 2026-04-21 at 6 51 14 PM" src="https://github.com/user-attachments/assets/f20365b1-4c90-4e70-9fcc-aa9260b239c1" />
 
 
+
+<br>
+<br>
+
+## GET Customer by {ID}
+
+<img width="743" height="558" alt="Screenshot 2026-04-25 at 2 39 39 PM" src="https://github.com/user-attachments/assets/8fab8da1-a8cd-497f-9e7e-31e79f57aaaa" />
+
+<br>
+
+<img width="1014" height="614" alt="Screenshot 2026-04-25 at 2 40 02 PM" src="https://github.com/user-attachments/assets/1d668efa-cf35-447d-88ed-3ccfc0a2bb49" />
+
+<br>
 <br>
 
 ---
@@ -299,8 +310,6 @@ Deletes a customer.
 - Deployment - "**No listener for endpoint: /**"
   
 <img width="1410" height="891" src="https://github.com/user-attachments/assets/d64e272c-9c3a-4f5e-b2b6-d88d07f36c5a" />
-
-<img width="1440" height="809" alt="Screenshot 2026-04-22 at 11 52 46 AM" src="https://github.com/user-attachments/assets/9db1cfd0-962b-4776-82f0-5550bb460934" />
 
 
 <br>
